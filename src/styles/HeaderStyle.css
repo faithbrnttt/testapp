@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.nav {
+    padding-inline: 5rem;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}
+
+.list_link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 20px;
+}
